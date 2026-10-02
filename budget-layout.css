@@ -1,0 +1,134 @@
+/* Wider budget panels and subtle blue variation make the budgeting workspace easier to scan. */
+
+.budget-layout {
+  grid-template-columns: 1fr !important;
+  gap: 28px !important;
+  align-items: start;
+}
+
+.budget-form {
+  width: 100%;
+  padding: 34px 40px !important;
+  background: linear-gradient(155deg, #e7f8fd, #f8fdff) !important;
+  border-color: #bde7f3 !important;
+}
+
+.budget-form h3 {
+  font-size: 22px;
+}
+
+.budget-form p {
+  font-size: 15px !important;
+  margin: 10px 0 20px !important;
+}
+
+.budget-form label {
+  margin-top: 17px !important;
+  max-width: 620px;
+}
+
+.budget-form button:not(.icon-button) {
+  width: min(620px, 100%);
+  min-height: 48px;
+  margin-top: 24px !important;
+}
+
+.budget-list {
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 20px !important;
+}
+
+.budget-card {
+  padding: 25px !important;
+  border-color: #c6eaf4 !important;
+  background: linear-gradient(145deg, #fff, #ecfaff) !important;
+  min-height: 185px;
+}
+
+.budget-card:nth-child(2n) {
+  background: linear-gradient(145deg, #f4fcff, #e2f7fc) !important;
+  border-color: #aee3f0 !important;
+}
+
+.budget-card h3 {
+  font-size: 19px;
+}
+
+.budget-card .progress {
+  height: 11px;
+  margin: 25px 0 13px;
+}
+
+.budget-foot {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.budget-card-edit {
+  width: 100%;
+  margin-top: 18px !important;
+  min-height: 42px !important;
+  background: #e3f8fc !important;
+  color: #0077b6 !important;
+  border: 1px solid #91ddeb !important;
+}
+
+.budget-card-edit:hover {
+  background: #c9f1f8 !important;
+  color: #023e8a !important;
+}
+
+.budget-list > .empty {
+  background: #f0fbff !important;
+  border-color: #bfe9f4 !important;
+}
+
+@media (max-width: 600px) {
+  .budget-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .budget-form,
+  .budget-card {
+    padding: 21px !important;
+  }
+}
+
+.budget-card-inline-edit {
+  background: linear-gradient(145deg, #dff7fc, #faffff) !important;
+  border: 2px solid #48cae4 !important;
+}
+
+.budget-card-inline-edit form {
+  display: grid;
+  gap: 13px;
+}
+
+.budget-card-inline-edit form > p {
+  margin: 0 !important;
+}
+
+.budget-card-inline-edit label {
+  display: grid;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #31546c;
+}
+
+.budget-card-inline-edit input,
+.budget-card-inline-edit select {
+  min-height: 43px;
+}
+
+.inline-edit-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.inline-edit-actions button {
+  flex: 1;
+  min-height: 42px;
+}

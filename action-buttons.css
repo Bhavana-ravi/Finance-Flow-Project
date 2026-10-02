@@ -1,0 +1,46 @@
+
+/* Consistent right-aligned edit/delete controls across history and budget cards. */
+
+.row-actions,
+.budget-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+
+.row-actions button,
+.budget-actions .icon-button {
+  height: 36px;
+  width: 36px;
+  border: 1px solid #bde8f0;
+  border-radius: 9px;
+}
+
+.row-actions button:first-child,
+.budget-actions .icon-button:first-child {
+  color: #0077B6;
+}
+
+.row-actions button:last-child,
+.budget-actions .icon-button:last-child {
+  color: var(--danger);
+  background: #fff4f5;
+}
+
+.budget-actions .budget-edit-button {
+  height: 36px;
+  padding: 7px 11px;
+  background: #eaf9fd;
+  color: #0077b6;
+  border: 1px solid #8bd8ea;
+  border-radius: 9px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.budget-actions .budget-edit-button:hover {
+  background: #d5f4fb;
+  color: #023e8a;
+}
+

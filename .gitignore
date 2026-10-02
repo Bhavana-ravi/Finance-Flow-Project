@@ -1,0 +1,6 @@
+# Ignore installed packages, local secrets, and build outputs.
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+server/.env

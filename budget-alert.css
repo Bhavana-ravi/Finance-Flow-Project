@@ -1,0 +1,91 @@
+/* Teal in-app alert warns immediately when a newly added expense exceeds a budget. */
+
+.budget-alert-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  background: #03045e70;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+}
+
+.budget-alert-modal {
+  width: min(440px, 100%);
+  padding: 34px;
+  text-align: center;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #fff, #d5fafa);
+  box-shadow: 0 22px 60px #03045e66;
+}
+
+.budget-alert-art {
+  height: 88px;
+  width: 88px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #0077B6;
+  background: linear-gradient(135deg, #64DFDF, #cafafa);
+  box-shadow: 0 0 0 12px #64dfdf44;
+}
+
+.budget-alert-modal h2 {
+  font-size: 25px;
+  margin: 7px 0 12px;
+}
+
+.budget-alert-modal p:not(.eyebrow) {
+  line-height: 1.65;
+  color: var(--muted);
+  margin: 0 0 23px;
+}
+
+.budget-alert-modal button {
+  width: 100%;
+  min-height: 48px;
+}
+
+.budget-alert-modal.warning {
+  background: linear-gradient(145deg, #fffdf6, #fff3cf);
+}
+
+.budget-alert-modal.warning .budget-alert-art {
+  color: #b66a00;
+  background: linear-gradient(135deg, #ffe6a3, #fff8df);
+  box-shadow: 0 0 0 12px #ffe8a044;
+}
+
+.budget-alert-modal.warning button {
+  background: #d97706;
+}
+
+.budget-alert-modal.danger {
+  background: linear-gradient(145deg, #fff, #ffebef);
+}
+
+.budget-alert-modal.danger .budget-alert-art {
+  color: #c24153;
+  background: linear-gradient(135deg, #ffd2da, #fff1f3);
+  box-shadow: 0 0 0 12px #ffbdca44;
+}
+
+.budget-alert-modal.danger button {
+  background: #c24153;
+}
+
+.budget-alert-status {
+  padding: 13px 15px;
+  border-radius: 12px;
+  background: #ffffffa8;
+  font-size: 14px !important;
+}
+
+.budget-alert-modal.warning .budget-alert-status {
+  color: #9a5c00 !important;
+}
+
+.budget-alert-modal.danger .budget-alert-status {
+  color: #b52c43 !important;
+}

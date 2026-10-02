@@ -1,0 +1,13 @@
+/* Budget amount feedback is placed directly below the number being validated. */
+
+.budget-field-error {
+  display: block;
+  margin-top: 6px;
+  color: var(--danger);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.budget-form input {
+  min-height: 45px;
+}

@@ -1,0 +1,13 @@
+/* Dedicated image panel: intentionally separate from the filter panel below. */
+
+.transaction-image {
+  width: 100%;
+  aspect-ratio: 12 / 5;
+  margin: 0 0 30px;
+  border: 2px solid #90E0EF;
+  outline: 1px solid #CAF0F8;
+  outline-offset: 4px;
+  border-radius: 16px;
+  background: url('/images/transactions-banner.png') center/cover no-repeat;
+  box-shadow: 0 9px 26px #023e8a1c;
+}

@@ -1,0 +1,23 @@
+/* Local page images supplied in client/public/images, presented in a wide 12:5 format. */
+
+.stat-grid::before,
+.budget-layout::before {
+  grid-column: 1 / -1;
+  aspect-ratio: 12 / 5;
+  width: 100%;
+  border-radius: 16px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  content: "";
+  box-shadow: 0 9px 26px #023e8a1c;
+}
+
+.stat-grid::before {
+  background-image: url('/images/overview-hero.png');
+}
+
+.budget-layout::before {
+  background-image: url('/images/budget-planning.png');
+}

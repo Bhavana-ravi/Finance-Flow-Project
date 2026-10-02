@@ -1,0 +1,61 @@
+ /* Muted green-teal #3c6e71 gradients give every finance workspace a calm, cohesive identity. */
+
+.stat-card:nth-child(1) {
+  background: linear-gradient(135deg, #ffffff 8%, #dcebea) !important;
+}
+
+.stat-card:nth-child(2) {
+  background: linear-gradient(135deg, #ffffff 8%, #c7dfde) !important;
+}
+
+.stat-card:nth-child(3) {
+  background: linear-gradient(135deg, #ffffff 8%, #b6d5d3) !important;
+}
+
+.dashboard-budgets {
+  background: linear-gradient(135deg, #faffff, #d2e7e5) !important;
+  border-color: #7faead !important;
+}
+
+.chart-grid .panel:first-child {
+  background: linear-gradient(145deg, #ffffff, #d9ebea) !important;
+}
+
+.chart-grid .panel:last-child {
+  background: linear-gradient(145deg, #ffffff, #c8e1df) !important;
+}
+
+.recent {
+  background: linear-gradient(145deg, #ffffff 15%, #d3e8e6) !important;
+}
+
+.filters {
+  background: linear-gradient(135deg, #b8d8d6, #faffff 55%, #d4e9e7) !important;
+  border-color: #75a8a6 !important;
+}
+
+.table-panel {
+  background: linear-gradient(145deg, #ffffff, #e0eeed) !important;
+}
+
+.transaction-inline-editor {
+  background: linear-gradient(135deg, #c1dedc, #ffffff) !important;
+}
+
+.budget-form {
+  background: linear-gradient(145deg, #c7e1df, #faffff) !important;
+  border-color: #79aba8 !important;
+}
+
+.budget-card {
+  background: linear-gradient(145deg, #ffffff, #d4e9e7) !important;
+  border-color: #8ebbb8 !important;
+}
+
+.budget-card:nth-child(2n) {
+  background: linear-gradient(145deg, #faffff, #c2deda) !important;
+}
+
+.budget-card-inline-edit {
+  background: linear-gradient(145deg, #b7d7d4, #ffffff) !important;
+}

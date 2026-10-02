@@ -1,0 +1,39 @@
+ /* A restrained #64DFDF tint unifies cards while preserving contrast for financial information. */
+
+.panel,
+.stat-card {
+  background: linear-gradient(145deg, #fff 15%, #e7fbfb 100%) !important;
+}
+
+.stat-card.balance {
+  background: linear-gradient(145deg, #f4ffff, #c7f5f5) !important;
+}
+
+.stat-card.income {
+  background: linear-gradient(145deg, #fbffff, #d8f8f0) !important;
+}
+
+.stat-card.expense {
+  background: linear-gradient(145deg, #fff, #e1f9fa) !important;
+}
+
+.table-head {
+  background: linear-gradient(90deg, #e1fafa, #f8ffff) !important;
+}
+
+.transaction-form {
+  background: linear-gradient(145deg, #edffff, #d2f7f7) !important;
+}
+
+.recent-row:hover,
+.table-row:hover {
+  background: #efffff;
+}
+
+.about-feature {
+  background: linear-gradient(145deg, #fff, #e5fafa) !important;
+}
+
+.about-note {
+  background: linear-gradient(90deg, #d6f8f8, #f5ffff) !important;
+}

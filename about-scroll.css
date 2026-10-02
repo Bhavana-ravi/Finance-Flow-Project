@@ -1,0 +1,52 @@
+
+/* Stack the About content deliberately: this page should be explored by scrolling, not squeezed side by side. */
+
+.about-hero {
+  min-height: 0 !important;
+  padding: 42px 50px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 24px !important;
+}
+
+.about-hero h2 {
+  font-size: clamp(32px, 3.4vw, 44px) !important;
+}
+
+.about-hero h2,
+.about-hero p:not(.eyebrow) {
+  max-width: 720px !important;
+}
+
+.about-hero p:not(.eyebrow) {
+  margin: 12px 0 18px !important;
+}
+
+.about-orb {
+  align-self: center !important;
+  justify-self: auto !important;
+  height: 150px !important;
+  width: 150px !important;
+  box-shadow: 0 0 0 17px #ffffff0b, 0 0 0 34px #48cae412 !important;
+}
+
+.about-orb svg {
+  width: 48px;
+  height: 48px;
+}
+
+.about-features {
+  grid-template-columns: 1fr !important;
+}
+
+@media (max-width: 750px) {
+  .about-hero {
+    padding: 32px 27px !important;
+  }
+
+  .about-orb {
+    display: none !important;
+  }
+}
+

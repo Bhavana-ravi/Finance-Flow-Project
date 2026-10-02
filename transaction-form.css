@@ -1,0 +1,26 @@
+ /* Inline validation belongs directly below its matching form field. */
+
+.amount-field-error {
+  display: block;
+  margin-top: 6px;
+  color: var(--danger);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.transaction-form {
+  max-width: 860px !important;
+  padding: 28px !important;
+}
+
+.transaction-form .grid-2 {
+  gap: 18px;
+}
+
+.transaction-form label {
+  margin-top: 15px;
+}
+
+.transaction-form .form-actions {
+  margin-top: 23px;
+}

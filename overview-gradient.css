@@ -1,0 +1,19 @@
+ /* Blue-to-pink treatment ties the two overview charts into one visual story. */
+
+.chart-grid .panel {
+  background: linear-gradient(
+    135deg,
+    #eef4ff 0%,
+    #f8f1ff 52%,
+    #fff0f7 100%
+  ) !important;
+  border-color: #d9d5fb !important;
+}
+
+.chart-grid .panel-heading h3 {
+  background: linear-gradient(90deg, #4361ee, #fa50a7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  width: max-content;
+}

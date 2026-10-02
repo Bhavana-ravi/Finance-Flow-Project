@@ -1,0 +1,88 @@
+/* The public gateway is intentionally vertical: blue brand story first, then the white sign-in area. */
+
+.auth-page {
+  display: block !important;
+  min-height: 100vh;
+}
+
+.auth-intro {
+  min-height: 510px !important;
+  padding: 55px max(8%, calc((100% - 1120px) / 2)) !important;
+}
+
+.auth-intro>div:nth-child(2) {
+  max-width: 780px;
+}
+
+.auth-intro h1 {
+  max-width: 760px;
+  font-size: clamp(38px, 5.2vw, 64px) !important;
+  line-height: 1.12 !important;
+  letter-spacing: -1.5px;
+}
+
+.auth-intro>div>p:not(.eyebrow) {
+  max-width: 650px !important;
+  font-size: 18px !important;
+  line-height: 1.65 !important;
+}
+
+.auth-stat {
+  width: min(100%, 780px) !important;
+}
+
+.auth-card-wrap {
+  min-height: 540px;
+  padding: 64px 30px !important;
+}
+
+.auth-card {
+  width: min(520px, 100%) !important;
+}
+
+.auth-card h2 {
+  font-size: 34px !important;
+  line-height: 1.2;
+}
+
+.auth-card .muted {
+  font-size: 15px !important;
+  line-height: 1.55;
+}
+
+.auth-card label {
+  font-size: 14px !important;
+}
+
+.auth-card input {
+  min-height: 48px;
+}
+
+.auth-card button:not(.switch button) {
+  min-height: 51px;
+}
+
+@media(max-width:620px) {
+  .auth-intro {
+    min-height: 420px !important;
+    padding: 35px 28px !important;
+  }
+
+  .auth-intro h1 {
+    font-size: 38px !important;
+    letter-spacing: -.8px;
+  }
+
+  .auth-intro>div>p:not(.eyebrow) {
+    font-size: 16px !important;
+  }
+
+  .auth-card-wrap {
+    min-height: 0;
+    padding: 42px 24px !important;
+  }
+
+  .auth-card h2 {
+    font-size: 29px !important;
+  }
+}
